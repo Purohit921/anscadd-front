@@ -1,0 +1,63 @@
+.app-download {
+  margin: auto;
+  margin-top: 100px;
+  font-size: max(3vw, 20px);
+  text-align: center;
+  font-weight: 500;
+  display: grid;
+  grid-template-columns: 60% 30%;
+  gap: 110px;
+}
+.app-download-playform {
+  display: flex;
+  justify-content: space-evenly;
+  gap: max(2vw, 10px);
+  margin-top: 40px;
+}
+.left-content h2 {
+  color: #494949;
+  padding: 60px 0px;
+}
+.left-content p {
+  padding: 60px 0px;
+  font-size: 1.3rem;
+}
+.left-content {
+  box-shadow: 0px 0px 30px 0px rgba(0, 42, 106, 0.3);
+}
+span {
+  font-size: 1rem;
+}
+.app-download-playform img {
+  width: max(30vw, 120px);
+  max-width: 180px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.app-download-playform i:hover {
+  transform: scale(1.05);
+}
+.calender {
+  display: flex;
+  flex-direction: column;
+}
+.right-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.right-content img {
+  width: 100%;
+}
+
+@media (max-width: 750px) {
+  .app-download {
+    gap: 60px;
+  }
+  .left-content {
+    padding: 50px 10px;
+  }
+  .app-download {
+    grid-template-columns: 1fr;
+  }
+}

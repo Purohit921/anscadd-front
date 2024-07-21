@@ -1,0 +1,121 @@
+.cont_container {
+  background: #495464;
+  padding: 4rem;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 4rem;
+  height: 30rem;
+  margin: 7rem auto;
+  border-radius: 1rem;
+}
+.cont_aside {
+  background: #bbbfca;
+  padding: 3rem;
+  border-radius: 1rem;
+  position: relative;
+  bottom: 10rem;
+}
+.asid_image {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.asid_image img {
+  width: 12rem;
+  margin-bottom: 2rem;
+}
+.cont_aside h2 {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.cont_aside p {
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+.cont_details li {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+.cont_socials {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 3rem;
+}
+.cont_socials a {
+  background: #424890;
+  padding: 0.5rem;
+  border-radius: 45%;
+  font-size: 0.9rem;
+}
+.cont_socials a:hover {
+  background: transparent;
+}
+.cont_form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-right: 4rem;
+}
+.for_name {
+  display: flex;
+  gap: 1.2rem;
+}
+.cont_form input[type="text"] {
+  width: 50%;
+}
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 1rem;
+  background: #1f2641;
+  color: #fff;
+}
+.cont_form .btn {
+  cursor: pointer;
+  margin-top: 1rem;
+  width: max-content;
+}
+@media screen and (max-width: 1050px) {
+  .cont_container {
+    gap: 1.5rem;
+    margin-top: 3rem;
+    height: auto;
+    padding: 1.5rem;
+  }
+  .cont_aside {
+    width: auto;
+    padding: 1.5rem;
+    bottom: 0;
+  }
+  .cont_form {
+    align-self: center;
+    margin-right: 1.5rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  .asid_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .asid_image img {
+    margin: 0px auto;
+  }
+  .cont_container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    margin-top: 0;
+    padding: 0;
+  }
+  .cont_form {
+    margin: 0 1.5rem 3rem;
+  }
+  .for_name {
+    flex-direction: column;
+  }
+  .for_name input[type="text"] {
+    width: 100%;
+  }
+}

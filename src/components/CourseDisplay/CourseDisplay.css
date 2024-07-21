@@ -1,0 +1,15 @@
+.course-display {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  margin-top: 30px;
+  gap: 30px;
+  row-gap: 50px;
+  padding: 0px 10px;
+}
+.course-display-left {
+  border: 1px solid #495464;
+  padding: 20px;
+}
+.course-display-left img {
+  width: 100%;
+}
