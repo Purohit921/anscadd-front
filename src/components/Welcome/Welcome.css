@@ -1,17 +1,18 @@
 .contact_container {
   padding: 0 2rem;
   display: grid;
-  grid-template-columns: 60% 40%;
   gap: 2rem;
   /* height: 30rem; */
   margin: 5rem auto;
   /* margin-top: 5rem; */
   border-radius: 1rem;
+  padding-left: 0;
 }
 .contact_aside {
   padding: 0 3rem;
   border-radius: 1rem;
   position: relative;
+  padding-left: 0;
 }
 .req-container {
   background-color: #494949;
@@ -19,6 +20,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 .contact_form {
   display: flex;
@@ -51,8 +54,10 @@ textarea {
 .categories_right {
   margin-right: 4rem;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.2rem;
+  grid-template-columns: repeat(auto-fill, 250px);
+  gap: 3rem;
+  padding-left: 5rem;
+  padding-top: 2rem;
 }
 .categories_container h2 {
   font-size: 2.5rem;
@@ -112,7 +117,9 @@ textarea {
     padding: 0px 10px;
   }
   .categories_right {
+    padding-left: 0;
     margin-right: 0;
+    grid-template-columns: repeat(auto-fill, 200px);
   }
   .req-container {
     padding: 20px 0px;
@@ -142,7 +149,9 @@ textarea {
     width: 100%;
   }
   .categories_right {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    padding-left: 0;
+    padding-top: 0;
     gap: 0.7rem;
   }
   .category {

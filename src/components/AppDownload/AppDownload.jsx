@@ -32,10 +32,69 @@ function AppDownload() {
           </div>
         </div>
       </div>
-      <div className="right-content">
-        <h2>Notice Board</h2>
-        <img src={assets.course_22} alt="" />
-        <h3>Event</h3>
+      <div className="req-container">
+        <h2 className="request-info">Request Information</h2>
+        <div className="form">
+          <form className="contact_form">
+            <div className="form_name">
+              <input
+                type="text"
+                name="First name"
+                id=""
+                placeholder="First Name"
+                required
+              />
+              <input
+                type="text"
+                name="Last name"
+                id=""
+                placeholder="Last Name"
+                required
+              />
+            </div>
+            <input
+              type="email"
+              name="Email Address"
+              id=""
+              placeholder="Email Address"
+              required
+            />
+            <input
+              type="tel"
+              name="phone number"
+              id=""
+              placeholder="Your phone number"
+              required
+            />
+            <input
+              type="date"
+              name="date"
+              placeholder="Choose a date"
+              id=""
+              required
+            />
+            <select name="branch" id="" required>
+              <option selected disabled>
+                Choose Department
+              </option>
+              <option value="">Civil Engineering</option>
+              <option value="">Mechanical Engineering</option>
+              <option value="">Electrical Engineering</option>
+              <option value="">Diploma</option>
+              <option value="">Master Diploma</option>
+              <option value="">Web Development</option>
+            </select>
+            <textarea
+              name="message"
+              rows="7"
+              id=""
+              placeholder="Your Message"
+            ></textarea>
+            <button type="submit" className="btn-primary">
+              Submit
+            </button>
+          </form>
+        </div>
       </div>
     </div>
   );

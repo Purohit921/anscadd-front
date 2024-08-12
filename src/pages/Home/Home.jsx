@@ -5,6 +5,7 @@ import ExploreMenu from "../../components/ExploreMenu/ExploreMenu";
 import FoodDisplay from "../../components/FoodDisplay/FoodDisplay";
 import AppDownload from "../../components/AppDownload/AppDownload";
 import Welcome from "../../components/Welcome/Welcome";
+import NoticeBoard from "../../components/NoticeBoard/NoticeBoard";
 
 function Home() {
   const [category, setCategory] = useState("All");
@@ -15,6 +16,7 @@ function Home() {
       <ExploreMenu category={category} setCategory={setCategory} />
       <FoodDisplay category={category} />
       <AppDownload />
+      <NoticeBoard />
     </div>
   );
 }
