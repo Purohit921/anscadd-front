@@ -17,7 +17,7 @@ function Home() {
         <div className="App">
           <Welcome />
           <ExploreMenu category={category} setCategory={setCategory} />
-          <FoodDisplay category={category} />
+          {/* <FoodDisplay category={category} /> */}
           <AppDownload />
           <NoticeBoard />
           <Testimonials />
