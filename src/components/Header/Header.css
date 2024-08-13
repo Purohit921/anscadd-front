@@ -81,7 +81,7 @@ body {
     /* max-width: 45%; */
   }
   .header{
-    height: 50vw;
+    height: 20vh;
   }
 }
 @media (max-width: 750px) {

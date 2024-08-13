@@ -16,36 +16,9 @@ function Category() {
   const category = menu_list.find((e) => e.menu_id === categoryId);
   console.log(category);
   return (
-    <div className="header">
-      <div className="header-contents">
-        <Swiper
-          spaceBetween={30}
-          centeredSlides={true}
-          autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-          }}
-          pagination={{
-            clickable: true,
-          }}
-          navigation={true}
-          modules={[Autoplay, Pagination, Navigation]}
-          className="mySwiper"
-        >
-          <SwiperSlide className="text-majhi">Banner 1</SwiperSlide>
-          <SwiperSlide className="text-majhi">Banner 2</SwiperSlide>
-          <SwiperSlide className="swiper-center">Banner 3</SwiperSlide>
-          <SwiperSlide className="swiper-center">Banner 4</SwiperSlide>
-          <SwiperSlide className="swiper-center">Banner 5</SwiperSlide>
-          <SwiperSlide className="swiper-center">Banner 6</SwiperSlide>
-          <SwiperSlide className="swiper-center">Banner 7</SwiperSlide>
-          <SwiperSlide className="swiper-center">Banner 8</SwiperSlide>
-        </Swiper>
-      </div>
-      <div className="app-land">
-        <div className="App">
-          <CategoryItem categories={category.menu_name} />
-        </div>
+    <div className="app-land">
+      <div className="App">
+        <CategoryItem categories={category.menu_name} />
       </div>
     </div>
   );
