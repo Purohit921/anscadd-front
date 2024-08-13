@@ -8,25 +8,25 @@ import Contactus from "./pages/Contactus/Contactus.jsx";
 import Courses from "./pages/Courses/Courses.jsx";
 import Course from "./pages/Course/Course.jsx";
 import Blogs from "./pages/Blogs/Blogs.jsx";
+import Category from "./pages/Category/Category.jsx";
 
 function App() {
   return (
     <>
       <Navbar />
-      <div className="app-land">
-        <div className="App">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contactus />} />
-            <Route path="/courses" element={<Courses />} />
-            <Route path="/blogs" element={<Blogs />} />
-            <Route path="/courses" element={<Course />}>
-              <Route path=":courseId" element={<Course />} />
-            </Route>
-          </Routes>
-        </div>
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contactus />} />
+        <Route path="/courses" element={<Courses />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/categories" element={<Category />}>
+          <Route path=":categoryId" element={<Category />} />
+        </Route>
+        <Route path="/courses" element={<Course />}>
+          <Route path=":courseId" element={<Course />} />
+        </Route>
+      </Routes>
       <Footer />
     </>
   );

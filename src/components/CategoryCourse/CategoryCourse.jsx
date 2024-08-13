@@ -1,9 +1,9 @@
 import React from "react";
-import "./FoodItem.css";
+import "./CategoryCourse.css";
 import { assets } from "../../assets/assets";
 import { Link } from "react-router-dom";
 
-function FoodItem({ id, name, price, description, image }) {
+function CategoryCourse({ id, name, price, description, image }) {
   return (
     <Link to={`/courses/${id}`}>
       <div className="food-item">
@@ -22,4 +22,4 @@ function FoodItem({ id, name, price, description, image }) {
   );
 }
 
-export default FoodItem;
+export default CategoryCourse;

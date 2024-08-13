@@ -6,9 +6,11 @@ import PostDisplay from "../../components/PostDisplay/PostDisplay";
 function Blogs() {
   const [category, setCategory] = useState("All");
   return (
-    <div>
-      <BlogHighlights category={category} setCategory={setCategory} />
-      <PostDisplay category={category} />
+    <div className="app-land">
+      <div className="App">
+        <BlogHighlights category={category} setCategory={setCategory} />
+        <PostDisplay category={category} />
+      </div>
     </div>
   );
 }

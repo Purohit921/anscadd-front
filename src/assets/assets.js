@@ -73,16 +73,31 @@ export const assets = {
 
 export const menu_list = [
   {
+    category_id: 1,
+    menu_id: "CivilCADD",
     menu_name: "Civil CADD",
     menu_image: menu_1,
+    menu_submenu_1: "3ds max",
+    menu_submenu_2: "3ds max",
+    menu_submenu_3: "3ds max",
   },
   {
+    category_id: 2,
+    menu_id: "MechanicalCADD",
     menu_name: "Mechanical CADD",
     menu_image: menu_2,
+    menu_submenu_1: "3ds max",
+    menu_submenu_2: "3ds max",
+    menu_submenu_3: "3ds max",
   },
   {
+    category_id: 3,
+    menu_id: "AdvancedCourses",
     menu_name: "Advanced Courses",
     menu_image: menu_3,
+    menu_submenu_1: "3ds max",
+    menu_submenu_2: "3ds max",
+    menu_submenu_3: "3ds max",
   },
 ];
 export const blog_list = [

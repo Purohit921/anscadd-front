@@ -6,17 +6,23 @@ import FoodDisplay from "../../components/FoodDisplay/FoodDisplay";
 import AppDownload from "../../components/AppDownload/AppDownload";
 import Welcome from "../../components/Welcome/Welcome";
 import NoticeBoard from "../../components/NoticeBoard/NoticeBoard";
+import Testimonials from "../../components/Testimonials/Testimonials";
 
 function Home() {
   const [category, setCategory] = useState("All");
   return (
     <div>
       <Header />
-      <Welcome />
-      <ExploreMenu category={category} setCategory={setCategory} />
-      <FoodDisplay category={category} />
-      <AppDownload />
-      <NoticeBoard />
+      <div className="app-land">
+        <div className="App">
+          <Welcome />
+          <ExploreMenu category={category} setCategory={setCategory} />
+          <FoodDisplay category={category} />
+          <AppDownload />
+          <NoticeBoard />
+          <Testimonials />
+        </div>
+      </div>
     </div>
   );
 }

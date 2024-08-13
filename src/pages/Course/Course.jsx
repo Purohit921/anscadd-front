@@ -12,9 +12,11 @@ function Course() {
   console.log(course);
 
   return (
-    <div>
-      <Breadcrums course={course} />
-      <CourseDisplay course={course} />
+    <div className="app-land">
+      <div className="App">
+        <Breadcrums course={course} />
+        <CourseDisplay course={course} />
+      </div>
     </div>
   );
 }

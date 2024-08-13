@@ -6,9 +6,11 @@ import FoodDisplay from "../../components/FoodDisplay/FoodDisplay";
 function Courses() {
   const [category, setCategory] = useState("All");
   return (
-    <div>
-      <ExploreMenu category={category} setCategory={setCategory} />
-      <FoodDisplay category={category} />
+    <div className="app-land">
+      <div className="App">
+        <ExploreMenu category={category} setCategory={setCategory} />
+        <FoodDisplay category={category} />
+      </div>
     </div>
   );
 }
