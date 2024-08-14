@@ -9,6 +9,7 @@ import Courses from "./pages/Courses/Courses.jsx";
 import Course from "./pages/Course/Course.jsx";
 import Blogs from "./pages/Blogs/Blogs.jsx";
 import Category from "./pages/Category/Category.jsx";
+import SocialMedia from "./components/SocialMedia/SocialMedia.jsx";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         </Route>
       </Routes>
       <Footer />
+      <SocialMedia />
     </>
   );
 }

@@ -77,17 +77,17 @@ body {
   object-fit: cover;
 }
 @media (max-width: 1050px) {
-  .header-contents {
-    /* max-width: 45%; */
-  }
+  /* .header-contents {
+    max-width: 45%;
+  } */
   .header {
     height: 20vh;
   }
 }
 @media (max-width: 750px) {
-  .header-contents {
-    /* max-width: 65%; */
-  }
+  /* .header-contents {
+    max-width: 65%;
+  } */
   .header {
     height: 50vh;
   }
