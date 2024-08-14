@@ -12,12 +12,11 @@
   color: #808080;
 }
 .explore-menu-list {
-  margin-right: 4rem;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 325px);
-  gap: 1rem;
-  padding: 2rem;
-  margin: 20px 0;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  margin-top: 30px;
+  gap: 30px;
+  row-gap: 50px;
 }
 .explore-menu-list-item {
   border-radius: 10px;
