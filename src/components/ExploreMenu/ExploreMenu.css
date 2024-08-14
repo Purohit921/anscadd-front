@@ -19,10 +19,11 @@
   row-gap: 50px;
 }
 .explore-menu-list-item {
-  border-radius: 10px;
+  border: 1px solid rgb(204, 196, 196);
   padding: 0rem 1rem 1rem 1rem;
 }
 .explore-menu-list-item:hover {
+  border-radius: 10px ;
   border: 1px solid grey;
 }
 .sub_menu {
