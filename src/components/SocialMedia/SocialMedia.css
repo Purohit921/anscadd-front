@@ -8,20 +8,20 @@
   gap: 1rem;
   border-radius: 20px 0 0 20px;
   background-color: grey;
-  padding: 10px;
+  padding: 5px;
 }
-.socialmedia-icons > i{
-    font-size: 2rem;
+.socialmedia-icons > i {
+  font-size: 2rem;
 }
-.fa-facebook{
-    color: blue;
+.fa-facebook {
+  color: blue;
 }
-.fa-instagram{
-    color: blueviolet;
+.fa-instagram {
+  color: blueviolet;
 }
-.fa-linkedin{
-    color: blue;
+.fa-linkedin {
+  color: blue;
 }
-.fa-youtube{
-    color: brown;
+.fa-youtube {
+  color: brown;
 }
