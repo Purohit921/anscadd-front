@@ -22,6 +22,7 @@
   object-fit: cover;
 }
 .testimonials {
+  position: relative;
   padding-top: 5rem;
   margin-top: 40px;
   z-index: 0;
