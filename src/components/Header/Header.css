@@ -96,6 +96,9 @@ body {
   }
 }
 @media (max-width: 390px) {
+  .header{
+    height: 50vh;
+  }
   .header-contents {
     bottom: 5%;
   }

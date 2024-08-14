@@ -54,7 +54,7 @@ textarea {
 .categories_right {
   margin-right: 4rem;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 250px);
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: 3rem;
   padding-left: 5rem;
   padding-top: 2rem;
