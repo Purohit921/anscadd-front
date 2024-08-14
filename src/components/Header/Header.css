@@ -29,11 +29,11 @@
   font-size: max(1vw, 13px);
   border-radius: 50px;
 }
-.hero-input{
+.hero-input {
   background-color: transparent;
   padding: 5px;
 }
-.header-text{
+.header-text {
   position: absolute;
   width: 45%;
   bottom: 10%;
@@ -80,13 +80,20 @@ body {
   .header-contents {
     /* max-width: 45%; */
   }
-  .header{
+  .header {
     height: 20vh;
   }
 }
 @media (max-width: 750px) {
   .header-contents {
     /* max-width: 65%; */
+  }
+  .header {
+    height: 50vh;
+  }
+  .header-text {
+    bottom: 20%;
+    left: 15%;
   }
   .header-contents p {
     display: none;
@@ -96,7 +103,11 @@ body {
   }
 }
 @media (max-width: 390px) {
-  .header{
+  .header-text {
+    bottom: 20%;
+    left: 15%;
+  }
+  .header {
     height: 50vh;
   }
   .header-contents {
