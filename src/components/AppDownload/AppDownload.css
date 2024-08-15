@@ -54,7 +54,7 @@ span {
   width: 100%;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 770px) {
   .left-content h2 {
     padding: 60px 0px;
   }

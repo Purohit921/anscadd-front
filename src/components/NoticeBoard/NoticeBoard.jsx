@@ -12,7 +12,6 @@ function NoticeBoard() {
       </div>
       <div className="right-container">
         <h2>Upcoming Events</h2>
-
       </div>
     </div>
   );

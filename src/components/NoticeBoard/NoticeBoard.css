@@ -1,10 +1,10 @@
 .noticeboard {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   margin-top: 30px;
   gap: 30px;
   text-align: center;
-  border: 2px solid black;
+  border: 1.5px solid black;
 }
 
 .left-container {
@@ -24,4 +24,12 @@
 }
 .left-container img {
   width: 100%;
+}
+@media (max-width: 750px) {
+  .left-container {
+    padding: 10px;
+  }
+  .right-container {
+    padding: 10px;
+  }
 }
