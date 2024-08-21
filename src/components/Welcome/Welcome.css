@@ -52,17 +52,19 @@ textarea {
   width: max-content;
 }
 .categories_right {
-  margin-right: 4rem;
+  /* margin-right: 4rem; */
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: 3rem;
   padding-left: 5rem;
   padding-top: 2rem;
+  margin: 0px auto;
 }
 .categories_container h2 {
   font-size: 2.5rem;
   font-weight: 500;
   color: maroon;
+  display: grid;
 }
 .category {
   background-color: var(--color-bg2);
@@ -90,7 +92,7 @@ textarea {
   margin: 1rem 0 0.5rem;
 }
 .category p {
-  font-size: max(1.4vw, 16px);
+  font-size: 16px;
 }
 .request-info {
   color: aliceblue;

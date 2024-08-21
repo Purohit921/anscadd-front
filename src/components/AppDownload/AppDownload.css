@@ -5,8 +5,8 @@
   text-align: center;
   font-weight: 500;
   display: grid;
-  grid-template-columns: 60% 30%;
-  gap: 110px;
+  grid-template-columns: 60% 35%;
+  gap: 5%;
 }
 .app-download-playform {
   display: flex;
