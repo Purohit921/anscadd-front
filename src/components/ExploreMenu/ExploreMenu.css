@@ -33,14 +33,14 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 }
-.sub_menu span {
+.sub_menu div {
   border: 2px solid grey;
   border-radius: 20px;
   height: 2vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 10px;
 }
 .name_explored {
   display: grid;
@@ -84,5 +84,8 @@
   }
   .explore-menu-list-item img {
     width: 20vw;
+  }
+  .sub_menu{
+    font-size: 0.75rem;
   }
 }

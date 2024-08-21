@@ -64,7 +64,7 @@ function About() {
                   modi aperiam repudiandae ut totam praesentium quibusdam quae
                   sequi! Cumque nesciunt doloribus quis reiciendis, odio optio.
                 </p>
-                <div className="achievements_cards">
+                {/* <div className="achievements_cards">
                   <article className="achievements-card">
                     <span className="achievements-icon">
                       <i className="fa-solid fa-video"></i>
@@ -86,7 +86,7 @@ function About() {
                     <h3>2</h3>
                     <p>Branches</p>
                   </article>
-                </div>
+                </div> */}
               </div>
             </div>
           </section>

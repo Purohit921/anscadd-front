@@ -20,9 +20,9 @@ function ExploreMenu({ category, setCategory }) {
                 <p>{item.menu_name}</p>
                 <div className="name_explored">
                   <div className="sub_menu">
-                    <span>{item.menu_submenu_1}</span>
-                    <span>{item.menu_submenu_2}</span>
-                    <span>{item.menu_submenu_3}</span>
+                    <div>{item.menu_submenu_1}</div>
+                    <div>{item.menu_submenu_2}</div>
+                    <div>{item.menu_submenu_3}</div>
                   </div>
                   <img
                     className={category === item.menu_name ? "active" : ""}

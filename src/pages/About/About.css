@@ -9,7 +9,7 @@
 .about_achievements-right > p {
   margin: 1.6rem 0 2.5rem;
 }
-.achievements_cards {
+/* .achievements_cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
@@ -32,7 +32,7 @@
   border-radius: 1rem;
   margin-bottom: 2rem;
   font-size: 2rem;
-}
+} */
 .achievements-card:nth-child(2) .achievements-icon {
   background: var(--color-success);
 }
@@ -56,8 +56,8 @@
   }
 }
 @media screen and (max-width: 750px) {
-  .achievements_cards {
+  /* .achievements_cards {
     grid-template-columns: 1fr 1fr;
     gap: 0.7rem;
-  }
+  } */
 }
