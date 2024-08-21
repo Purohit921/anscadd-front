@@ -13,21 +13,33 @@ function Welcome() {
                 <i className="fa-solid fa-bitcoin-sign"></i>
               </span>
               <h5>Civil CADD</h5>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>
+                Our courses are framed for students who want to learn 2D, 3D
+                modelling and geometry derived assessmentsand other tooling.
+                Explore the wide variety of choices in designing.
+              </p>
             </article>
             <article className="category">
               <span className="category_icon">
                 <i className="fa-solid fa-bitcoin-sign"></i>
               </span>
               <h5>Mechanical CADD</h5>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>
+                Our courses are framed for students who want to learn 2D, 3D
+                modelling and geometry derived assessmentsand other tooling.
+                Explore the wide variety of choices in designing.
+              </p>
             </article>
             <article className="category">
               <span className="category_icon">
                 <i className="fa-solid fa-bitcoin-sign"></i>
               </span>
               <h5>Electrical CADD</h5>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>
+                Our courses are framed for students who want to learn 2D, 3D
+                modelling and geometry derived assessmentsand other tooling.
+                Explore the wide variety of choices in designing.
+              </p>
             </article>
           </div>
         </div>
