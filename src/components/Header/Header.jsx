@@ -1,6 +1,7 @@
 import "./Header.css";
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { assets } from "../../assets/assets";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -25,23 +26,43 @@ function Header() {
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper"
         >
-          <SwiperSlide className="text-majhi">Banner 1</SwiperSlide>
-          <SwiperSlide className="text-majhi">Banner 2</SwiperSlide>
-          <SwiperSlide className="swiper-center">Banner 3</SwiperSlide>
-          <SwiperSlide className="swiper-center">Banner 4</SwiperSlide>
-          <SwiperSlide className="swiper-center">Banner 5</SwiperSlide>
-          <SwiperSlide className="swiper-center">Banner 6</SwiperSlide>
-          <SwiperSlide className="swiper-center">Banner 7</SwiperSlide>
-          <SwiperSlide className="swiper-center">Banner 8</SwiperSlide>
+          <SwiperSlide className="swiper-center">
+            <img src={assets.header_img} alt="" />
+          </SwiperSlide>
+          <SwiperSlide className="swiper-center">
+            <img src={assets.header_img} alt="" />
+          </SwiperSlide>
+          <SwiperSlide className="swiper-center">
+            <img src={assets.header_img} alt="" />
+          </SwiperSlide>
+          <SwiperSlide className="swiper-center">
+            <img src={assets.header_img} alt="" />
+          </SwiperSlide>
+          <SwiperSlide className="swiper-center">
+            <img src={assets.header_img} alt="" />
+          </SwiperSlide>
+          <SwiperSlide className="swiper-center">
+            <img src={assets.header_img} alt="" />
+          </SwiperSlide>
+          <SwiperSlide className="swiper-center">
+            <img src={assets.header_img} alt="" />
+          </SwiperSlide>
+          <SwiperSlide className="swiper-center">
+            <img src={assets.header_img} alt="" />
+          </SwiperSlide>
         </Swiper>
         <div className="header-text">
-          <h2>Start learning new things with</h2>
-          <h2>ANS CADD</h2>
+          <h3>Start learning new things with</h3>
+          <h3>ANS CADD</h3>
           <p>
             Study any topic, any time. Choose from best of expert-led courses
             now.
           </p>
-          <input className="hero-input" type="text" placeholder="Search here any topic" />
+          <input
+            className="hero-input"
+            type="text"
+            placeholder="Search here any topic"
+          />
         </div>
       </div>
     </div>

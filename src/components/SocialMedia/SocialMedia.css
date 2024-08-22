@@ -7,21 +7,27 @@
   z-index: 0;
   gap: 1rem;
   border-radius: 20px 0 0 20px;
-  background-color: grey;
+  background-color: #e8e8e8;
   padding: 10px;
 }
 .socialmedia-icons > i {
-  font-size: 2rem;
+  color: #495464;
 }
 .fa-facebook {
+  font-size: 1.8rem;
   color: blue;
 }
 .fa-instagram {
+  font-size: 1.8rem;
   color: blueviolet;
 }
 .fa-linkedin {
+  font-size: 1.8rem;
   color: blue;
 }
 .fa-youtube {
-  color: brown;
+  font-size: 1.5rem;
+}
+.fa-x-twitter {
+  font-size: 1.8rem;
 }
