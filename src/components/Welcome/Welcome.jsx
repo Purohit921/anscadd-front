@@ -7,7 +7,7 @@ function Welcome() {
       <aside className="contact_aside">
         <div className="container categories_container">
           <h2>Welcome to ANS CADD</h2>
-          <div className="categories_right">
+          {/* <div className="categories_right">
             <article className="category">
               <span className="category_icon">
                 <i className="fa-solid fa-bitcoin-sign"></i>
@@ -41,7 +41,7 @@ function Welcome() {
                 Explore the wide variety of choices in designing.
               </p>
             </article>
-          </div>
+          </div> */}
         </div>
       </aside>
     </div>
