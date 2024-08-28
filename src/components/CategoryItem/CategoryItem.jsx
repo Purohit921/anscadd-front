@@ -18,7 +18,7 @@ function CategoryItem({ categories }) {
                 id={item.id}
                 name={item.name}
                 description={item.description}
-                price={item.price}
+                duration={item.duration}
                 image={item.image}
               />
             );

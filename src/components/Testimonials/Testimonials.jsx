@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import { assets } from "../../assets/assets";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -15,7 +16,7 @@ function Testimonials() {
   return (
     <div className="testimonials">
       <Swiper
-        slidesPerView={3}
+        slidesPerView={1}
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
@@ -29,12 +30,116 @@ function Testimonials() {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>Testimonial 1</SwiperSlide>
-        <SwiperSlide>Testimonial 2</SwiperSlide>
-        <SwiperSlide>Testimonial 3</SwiperSlide>
-        <SwiperSlide>Testimonial 4</SwiperSlide>
-        <SwiperSlide>Testimonial 5</SwiperSlide>
-        <SwiperSlide>Testimonial 6</SwiperSlide>
+        <SwiperSlide>
+          <div className="testimonial">
+            <div className="profile">
+              <div class="avatar">
+                <img src={assets.header_img} alt="" />
+              </div>
+              <div class="testimonial_info">
+                <h5>Name</h5>
+                <small>student</small>
+              </div>
+            </div>
+            <div class="testimonial_body">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
+                voluptas est tenetur repellendus enim magni, officia iste labore
+                cupiditate nihil!
+              </p>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="testimonial">
+            <div class="avatar">
+              <img src={assets.header_img} alt="" />
+            </div>
+            <div class="testimonial_info">
+              <h5>Name</h5>
+              <small>student</small>
+            </div>
+            <div class="testimonial_body">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
+                voluptas est tenetur repellendus enim magni, officia iste labore
+                cupiditate nihil!
+              </p>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="testimonial">
+            <div class="avatar">
+              <img src={assets.header_img} alt="" />
+            </div>
+            <div class="testimonial_info">
+              <h5>Name</h5>
+              <small>student</small>
+            </div>
+            <div class="testimonial_body">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
+                voluptas est tenetur repellendus enim magni, officia iste labore
+                cupiditate nihil!
+              </p>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="testimonial">
+            <div class="avatar">
+              <img src={assets.header_img} alt="" />
+            </div>
+            <div class="testimonial_info">
+              <h5>Name</h5>
+              <small>student</small>
+            </div>
+            <div class="testimonial_body">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
+                voluptas est tenetur repellendus enim magni, officia iste labore
+                cupiditate nihil!
+              </p>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="testimonial">
+            <div class="avatar">
+              <img src={assets.header_img} alt="" />
+            </div>
+            <div class="testimonial_info">
+              <h5>Name</h5>
+              <small>student</small>
+            </div>
+            <div class="testimonial_body">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
+                voluptas est tenetur repellendus enim magni, officia iste labore
+                cupiditate nihil!
+              </p>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="testimonial">
+            <div class="avatar">
+              <img src={assets.header_img} alt="" />
+            </div>
+            <div class="testimonial_info">
+              <h5>Name</h5>
+              <small>student</small>
+            </div>
+            <div class="testimonial_body">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
+                voluptas est tenetur repellendus enim magni, officia iste labore
+                cupiditate nihil!
+              </p>
+            </div>
+          </div>
+        </SwiperSlide>
       </Swiper>
     </div>
   );

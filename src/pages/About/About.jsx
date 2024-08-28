@@ -2,6 +2,7 @@ import Header from "../../components/Header/Header.jsx";
 import "./About.css";
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { assets } from "../../assets/assets";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -27,17 +28,33 @@ function About() {
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper"
         >
-          <SwiperSlide className="text-majhi">Banner 1</SwiperSlide>
-          <SwiperSlide className="text-majhi">Banner 2</SwiperSlide>
-          <SwiperSlide className="swiper-center">Banner 3</SwiperSlide>
-          <SwiperSlide className="swiper-center">Banner 4</SwiperSlide>
-          <SwiperSlide className="swiper-center">Banner 5</SwiperSlide>
-          <SwiperSlide className="swiper-center">Banner 6</SwiperSlide>
-          <SwiperSlide className="swiper-center">Banner 7</SwiperSlide>
-          <SwiperSlide className="swiper-center">Banner 8</SwiperSlide>
+          <SwiperSlide className="swiper-center">
+            <img src={assets.header_img} alt="" />
+          </SwiperSlide>
+          <SwiperSlide className="swiper-center">
+            <img src={assets.header_img} alt="" />
+          </SwiperSlide>
+          <SwiperSlide className="swiper-center">
+            <img src={assets.header_img} alt="" />
+          </SwiperSlide>
+          <SwiperSlide className="swiper-center">
+            <img src={assets.header_img} alt="" />
+          </SwiperSlide>
+          <SwiperSlide className="swiper-center">
+            <img src={assets.header_img} alt="" />
+          </SwiperSlide>
+          <SwiperSlide className="swiper-center">
+            <img src={assets.header_img} alt="" />
+          </SwiperSlide>
+          <SwiperSlide className="swiper-center">
+            <img src={assets.header_img} alt="" />
+          </SwiperSlide>
+          <SwiperSlide className="swiper-center">
+            <img src={assets.header_img} alt="" />
+          </SwiperSlide>
         </Swiper>
         <div className="header-text">
-          <h2>Start learning new things with</h2>
+          <h3>Start learning new things with</h3>
           <h2>ANS CADD</h2>
           <p>
             Study any topic, any time. Choose from best of expert-led courses
@@ -58,12 +75,6 @@ function About() {
                 <img src="./images/about achievements.svg" alt="" />
               </div>
               <div className="about_achievements-right">
-                <h1>Achievements</h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
-                  modi aperiam repudiandae ut totam praesentium quibusdam quae
-                  sequi! Cumque nesciunt doloribus quis reiciendis, odio optio.
-                </p>
                 {/* <div className="achievements_cards">
                   <article className="achievements-card">
                     <span className="achievements-icon">

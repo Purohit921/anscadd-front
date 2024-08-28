@@ -3,6 +3,7 @@ import "./CourseDisplay.css";
 
 function CourseDisplay(props) {
   const { course } = props;
+  console.log(course.syllabus);
   return (
     <div>
       <div className="course-display">
@@ -12,6 +13,11 @@ function CourseDisplay(props) {
         <div className="course-display-right">
           <h1>{course.name}</h1>
           <p>{course.description}</p>
+        </div>
+        <div className="syllabusChapters">
+          {course.syllabus.map((item) => {
+            return <div className="syllabusChapter">{item.syl}</div>;
+          })}
         </div>
       </div>
     </div>
