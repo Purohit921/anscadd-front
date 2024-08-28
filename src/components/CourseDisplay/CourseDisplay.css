@@ -1,3 +1,7 @@
+.course-display-main{
+  margin: 2rem 0rem;
+}
+
 .course-display {
   display: grid;
   grid-template-columns: 20% 70%;
@@ -6,7 +10,26 @@
   row-gap: 50px;
   padding: 0px 20px 10px 10px;
 }
-
+.course-display-right{
+  font-size: 18px;
+}
+.course-display-right p{
+  margin-top: 25px;
+}
+.syllabusChapters{
+  font-size: 16px;
+  width: 100%;
+  margin: 1rem 0rem;
+  box-sizing: border-box;
+}
+.syllabusChapter{
+  box-sizing: border-box;
+  color: grey;
+  border: 1px solid black;
+  display: inline-block;
+  width: 100%;
+  padding: 10px 5px;
+}
 .course-display-left img {
   border: 1px solid #495464;
   padding: 20px;
