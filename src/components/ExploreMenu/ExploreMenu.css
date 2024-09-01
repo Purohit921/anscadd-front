@@ -17,6 +17,9 @@
   /* margin-top: 30px; */
   gap: 30px;
   /* row-gap: 50px; */
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20%;
 }
 .explore-menu-list-item {
   border: 1.5px solid rgb(204, 196, 196);
@@ -85,7 +88,17 @@
   .explore-menu-list-item img {
     width: 20vw;
   }
-  .sub_menu{
+  .sub_menu {
     font-size: 0.75rem;
+  }
+}
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0.7;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
   }
 }

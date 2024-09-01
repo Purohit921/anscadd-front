@@ -65,6 +65,9 @@ textarea {
   font-weight: 500;
   color: maroon;
   display: grid;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
 }
 .category {
   background-color: var(--color-bg2);
@@ -163,5 +166,16 @@ textarea {
   .category_icon {
     margin-top: 4px;
     display: inline-block;
+  }
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0.7;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
   }
 }
