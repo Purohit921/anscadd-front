@@ -90,7 +90,7 @@ function Header() {
             </span>
           </div>
           <h3>
-            <span>with</span>ANS CADD
+            <span>with&nbsp; </span>ANS CADD
           </h3>
           <p>
             Study any topic, any time. Choose from best of expert-led courses
