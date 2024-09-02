@@ -55,7 +55,7 @@ function Header() {
         <div className="header-text">
           <h5>Start learning </h5>
           <div className="animated">
-            <span>&nbsp;</span>
+            <span>&nbsp; </span>
             <span>
               <Typewriter
                 words={[
