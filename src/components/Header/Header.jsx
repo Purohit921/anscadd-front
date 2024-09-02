@@ -7,6 +7,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { Typewriter } from "react-simple-typewriter";
 
 function Header() {
   return (
@@ -52,8 +53,45 @@ function Header() {
           </SwiperSlide>
         </Swiper>
         <div className="header-text">
-          <h3>Start learning new things with</h3>
-          <h3>ANS CADD</h3>
+          <h5>Start learning </h5>
+          <div className="animated">
+            <span>&nbsp;</span>
+            <span>
+              <Typewriter
+                words={[
+                  "3ds Max",
+                  "Etabs",
+                  "Revit Structure",
+                  "Revit Architecture",
+                  "Staadpro",
+                  "Vray",
+                  "AutoCad",
+                  "Ansys",
+                  "AutoCad",
+                  "Catia",
+                  "Creo",
+                  "Hyperworks",
+                  "NX",
+                  "Render",
+                  "Architecture Design",
+                  "Car Design",
+                  "Industrial Design",
+                  "Interior Design",
+                  "Plastic Mold Design",
+                  "Product Design",
+                  "Sketching",
+                  "Structure Design",
+                ]}
+                loop={50}
+                typeSpeed={70}
+                deleteSpeed={50}
+                delaySpeed={1000}
+              />
+            </span>
+          </div>
+          <h3>
+            <span>with</span>ANS CADD
+          </h3>
           <p>
             Study any topic, any time. Choose from best of expert-led courses
             now.

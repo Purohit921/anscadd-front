@@ -7,6 +7,9 @@
   display: grid;
   grid-template-columns: 60% 35%;
   gap: 5%;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }
 .app-download-playform {
   display: flex;
@@ -14,11 +17,11 @@
   gap: max(2vw, 10px);
   margin-top: 40px;
 }
-.left-content {
+/* .left-content {
   animation: appear linear;
   animation-timeline: view();
-  animation-range: entry 0% cover 20%;
-}
+  animation-range: entry 0% cover 50%;
+} */
 .left-content h2 {
   color: #494949;
   padding: 30px 30px;
@@ -46,6 +49,7 @@ span {
 .app-download-playform i:hover {
   transform: scale(1.05);
 }
+
 .calender {
   display: flex;
   flex-direction: column;
@@ -74,6 +78,11 @@ span {
   }
   .app-download {
     grid-template-columns: 1fr;
+  }
+  .req-container {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
   }
 }
 @keyframes appear {

@@ -2,11 +2,15 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 50%;
 }
 .explore-menu h1 {
   color: #262626;
   font-weight: 500;
 }
+
 .explore-menu-text {
   max-width: 60%;
   color: #808080;
@@ -19,7 +23,7 @@
   /* row-gap: 50px; */
   animation: appear linear;
   animation-timeline: view();
-  animation-range: entry 0% cover 20%;
+  animation-range: entry 0% cover 50%;
 }
 .explore-menu-list-item {
   border: 1.5px solid rgb(204, 196, 196);
@@ -84,6 +88,11 @@
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     padding-top: 0px;
     gap: 20px;
+  }
+  .explore-menu-list-item {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
   }
   .explore-menu-list-item img {
     width: 20vw;
