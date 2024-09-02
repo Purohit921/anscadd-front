@@ -29,8 +29,8 @@ function Achievement() {
         <span className="achievements-icon">
           <i className="fa-solid fa-award"></i>
         </span>
-        <h3>2</h3>
-        <p>Branches</p>
+        <h3>60,000+</h3>
+        <p>Experience</p>
       </article>
     </div>
   );
