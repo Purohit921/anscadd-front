@@ -30,7 +30,7 @@ function ExploreMenu({ category, setCategory }) {
                     alt=""
                   />
                 </div>
-                <button>Explore Category</button>
+                <button className="explore">Explore Category</button>
               </div>
             </Link>
           );

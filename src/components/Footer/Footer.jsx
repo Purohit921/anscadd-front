@@ -10,9 +10,8 @@ function Footer() {
         <div className="footer-content-left">
           <img className="footer-logo" src={assets.logo} alt="" />
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
-            reiciendis iure eveniet totam fugiat deserunt? Totam vero nesciunt
-            quisquam aspernatur.
+            Study any topic, any time. Choose from best of expert-led courses
+            now.
           </p>
           <div className="footer-social-icons">
             <i class="fa-brands fa-facebook"></i>
@@ -37,6 +36,23 @@ function Footer() {
             </li>
             <li>
               <Link to="/blogs">Blogs</Link>
+            </li>
+          </ul>
+        </div>
+        <div className="footer-content-center">
+          <h2>SERVICES</h2>
+          <ul>
+            <li>
+              <Link to="">Engineering Services</Link>
+            </li>
+            <li>
+              <Link to="">GIS Services</Link>
+            </li>
+            <li>
+              <Link to="">Live Projects</Link>
+            </li>
+            <li>
+              <Link to="">Web Development</Link>
             </li>
           </ul>
         </div>

@@ -23,12 +23,12 @@ function AppDownload() {
             <span>Certification</span>
           </div>
           <div className="icon">
-            <i className="fa-solid fa-graduation-cap"></i>
-            <span>Certification</span>
+            <i className="fa-solid fa-chalkboard-user"></i>
+            <span>Expert Instructor</span>
           </div>
           <div className="icon">
-            <i className="fa-solid fa-graduation-cap"></i>
-            <span>Certification</span>
+            <i className="fa-solid fa-headset"></i>
+            <span>Lifetime Support</span>
           </div>
         </div>
       </div>
